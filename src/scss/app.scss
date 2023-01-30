@@ -21,14 +21,10 @@ html {
     background: $background;
 }
 
-@media (min-width:600px) {
+@media (max-width:600px) {
     .discounts {
-        display: none;
+        width: 100px;
+        height: 100px;
+        background-color: red;
     }
-}
-
-.discounts {
-    width: 100px;
-    height: 100px;
-    background-color: red;
 }
