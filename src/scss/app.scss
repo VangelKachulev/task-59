@@ -21,17 +21,14 @@ html {
     background: $background;
 }
 
+@media (min-width:600px) {
+    .discounts {
+        display: none;
+    }
+}
 
 .discounts {
     width: 100px;
     height: 100px;
     background-color: red;
-}
-.single {
-  font-size: 1rem;
-}
-@media (min-width:600px) {
-    .discounts {
-        display: none;
-    }
 }
